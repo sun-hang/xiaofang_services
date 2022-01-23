@@ -1,12 +1,3 @@
-/*
- * @Author: 孙山峰
- * @Date: 2022-01-23 12:19:32
- * @LastEditTime: 2022-01-23 13:45:25
- * @LastEditors: 孙山峰
- * @Description: 
- * @FilePath: \eggServices\config\config.default.ts
- * 可以输入预定的版权声明、个性签名、空行等
- */
 import { EggAppConfig, EggAppInfo, PowerPartial } from 'egg';
 
 export default (appInfo: EggAppInfo) => {
@@ -34,7 +25,7 @@ export default (appInfo: EggAppInfo) => {
 
 // {app_root}/config/config.default.js
 export const mongoose = {
-  url: 'mongodb://127.0.0.1/fang_miao',
+  url: 'mongodb://127.0.0.1/example',
   options: {},
   // mongoose global plugins, expected a function or an array of function and options
   // plugins: [createdPlugin, [updatedPlugin, pluginOptions]],
